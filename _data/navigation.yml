@@ -17,8 +17,5 @@ main:
   - title: "CV"
     url: http://shraddhapuntambekar.github.io/files/Resume_ShraddhaPuntambekar.pdf
     
-  - title: "Books"
-    url: /books/
-
-  - title: "Quotes"
-    url: /quotes/
+  - title: "Miscellaneous"
+    url: /miscellaneous/
