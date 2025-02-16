@@ -22,8 +22,8 @@ repository               : "shraddhapuntambekar/shraddhapuntambekar.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "ShP.png"
+  name             : "Shraddha Puntambekar"
   pronouns         : # example: "she/her"  
   bio              : "Computational Biologist experienced in NGS analysis and systems biology"
   location         : "Pune, Maharashtra, India"
