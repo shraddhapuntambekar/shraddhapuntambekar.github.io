@@ -18,7 +18,5 @@ main:
     url: http://shraddhapuntambekar.github.io/files/Resume_ShraddhaPuntambekar.pdf
     
   - title: "Books"
-    url: /markdown/
-    
-  - title: "Quotes"
-    url: /markdown/
+    url: /books/
+  
