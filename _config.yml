@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Shraddha S. Puntambekar"
+title                    : "Shraddha Puntambekar"
 title_separator          : "-"
 name                     : &name "Shraddha Puntambekar"
 description              : &description "personal description"
