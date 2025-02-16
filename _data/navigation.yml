@@ -19,4 +19,6 @@ main:
     
   - title: "Books"
     url: /books/
-  
+
+  - title: "Quotes"
+    url: /quotes/
