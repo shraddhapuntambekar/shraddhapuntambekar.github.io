@@ -25,9 +25,9 @@ author:
   avatar           : "ShP.png"
   name             : "Shraddha Puntambekar"
   pronouns         : # example: "she/her"  
-  bio              : "Computational Biologist experienced in NGS analysis and systems biology"
-  location         : "Pune, Maharashtra, India"
-  employer         : "CSIR - National Chemical Laboatory"
+  bio              : "Bioinformatics Scientist | Multi-omics analysis & Systems Biology"
+  location         : "Pune, India"
+  employer         : #"National Chemical Laboatory"
   uri              : # URL
   email            : "shraddha.puntambekar@gmail.com" 
 
@@ -35,9 +35,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AOv-ny-I5r5oBo-WXWeiY4_cv6QSWtFoipb4ThJu5r25oyTldV6D8uZYNMn6cXdV1nJ03fQD8PQNMYA7LiiSzkGn6ruA&user=lpuoaBkAAAAJ"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -45,16 +43,15 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "shraddhapuntambekar"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
-  goodreads        : "shraddha_puntambekar"
+  goodreads        : "goodreadscomshraddha_puntambekar"
   google_plus      : # Username
   keybase          : # Username
   instagram        : # Username
