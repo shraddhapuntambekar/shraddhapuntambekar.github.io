@@ -8,11 +8,11 @@ main:
   - title: "Research"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/     
+  - title: "Codes"
+    url: /codes/     
        
   - title: "Blog"
-    url: /year-archive/
+    url: /posts/
     
   - title: "CV"
     url: http://shraddhapuntambekar.github.io/files/Resume_ShraddhaPuntambekar.pdf
