@@ -4,6 +4,14 @@ permalink: /research/
 author_profile: true
 ---
 
+<style>
+.page__content ul { margin-bottom: 0.8em; }
+.page__content ul li { margin-bottom: 0.1em; line-height: 1.4; }
+.page__content h2 { margin-top: 1.3em; margin-bottom: 0.4em; }
+.page__content h3 { margin-top: 0.9em; margin-bottom: 0.25em; }
+.page__content p { margin-bottom: 0.7em; }
+</style>
+
 Selected academic research projects from my postdoctoral work and Ph.D., framed as concise case studies — **Problem · Approach · Outcome · Technologies** — so you can scan each in under a minute, in the same format as the [Industry Projects](/industry/) page.
 
 ## GATA3 Regulatory Biology

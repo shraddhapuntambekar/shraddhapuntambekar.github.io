@@ -4,6 +4,14 @@ permalink: /expertise/
 author_profile: true
 ---
 
+<style>
+.page__content ul { margin-bottom: 0.8em; }
+.page__content ul li { margin-bottom: 0.1em; line-height: 1.4; }
+.page__content h2 { margin-top: 1.3em; margin-bottom: 0.4em; }
+.page__content h3 { margin-top: 0.9em; margin-bottom: 0.25em; }
+.page__content p { margin-bottom: 0.7em; }
+</style>
+
 Four core areas of expertise spanning analytics, workflows, modeling, and digital transformation — plus an active area of exploration in AI for life sciences.
 
 ## Multi-omics Analytics
@@ -117,3 +125,8 @@ I am actively tracking and exploring how artificial intelligence can support sci
 - Knowledge extraction from scientific literature
 - AI-driven workflow automation
 - Foundation models for biology
+
+## Certifications
+
+- **AI-Empowered SAFe 6 Scrum Master** — Scaled Agile, Inc.
+- **AI-Empowered SAFe 6 Product Owner/Product Manager** — Scaled Agile, Inc.
