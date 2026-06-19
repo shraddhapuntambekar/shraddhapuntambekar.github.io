@@ -12,13 +12,13 @@ author_profile: true
 .page__content p { margin-bottom: 0.7em; }
 </style>
 
-Selected academic research projects from my postdoctoral work and Ph.D., framed as concise case studies — **Problem · Approach · Outcome · Technologies** — so you can scan each in under a minute, in the same format as the [Industry Projects](/industry/) page.
+Selected academic research projects from my postdoctoral work and Ph.D., framed as concise case studies so you can scan each in under a minute, in the same format as the [Industry Projects](/industry/) page.
 
 ## GATA3 Regulatory Biology
 **Institution:** CSIR-National Chemical Laboratory · **Role:** Project Scientist II · **Period:** 2023 – Mar 2024
 
 ### Problem
-The transcription factor **GATA3** is a major regulator of luminal breast cancer, but its DNA-binding behavior across the diverse GATA motif landscape — and how that binding translates into regulatory signaling — was not well characterized.
+The transcription factor **GATA3** is a major regulator of luminal breast cancer, but its DNA-binding behavior across the diverse GATA motif landscape, and how that binding translates into regulatory signaling was not well characterized.
 
 ### Approach
 - Evaluated and benchmarked ChIP-seq tools for alignment, peak detection, and **de novo motif analysis** of GATA3 binding sites.
@@ -29,7 +29,7 @@ The transcription factor **GATA3** is a major regulator of luminal breast cancer
 - Findings published as **co-author** in [Gharui, Puntambekar, et al., *Biochemical and Biophysical Research Communications* (2026)](https://doi.org/10.1016/j.bbrc.2026.153718) — *"Recognition of diverse GATA motifs necessitates multimodal GATA3-DNA binding."*
 
 ### Technologies
-ChIP-seq · ATAC-seq · RNA-seq · de novo motif analysis · Regulatory network analysis
+ChIP-seq, ATAC-seq, RNA-seq, de novo motif analysis, Regulatory network analysis
 
 ---
 
@@ -37,7 +37,7 @@ ChIP-seq · ATAC-seq · RNA-seq · de novo motif analysis · Regulatory network 
 **Institution:** Indian Institute of Science Education and Research, Pune (IISER-Pune) · **Role:** Postdoctoral Researcher · **Period:** 2018 – 2019
 
 ### Problem
-Transcripts encoding **novel open reading frames (nORFs)** — short, previously uncharacterized peptides — were emerging as a potential class of cancer biomarkers and therapeutic targets, but they had not been systematically characterized across cancer types or assessed for clinical utility.
+Transcripts encoding **novel open reading frames (nORFs)**: short, previously uncharacterized peptides, were emerging as a potential class of cancer biomarkers and therapeutic targets, but they had not been systematically characterized across cancer types or assessed for clinical utility.
 
 ### Approach
 - Built a **proteogenomic pipeline** integrating publicly available RNA-seq and Ribo-seq data across multiple cancer types.
@@ -47,7 +47,7 @@ Transcripts encoding **novel open reading frames (nORFs)** — short, previously
 - Findings published as **co-first author** in [Erady, Boxall, Puntambekar, et al., *NPJ Genomic Medicine* (2021)](https://www.nature.com/articles/s41525-020-00167-4) — *"Pan-cancer analysis of transcripts encoding novel open reading frames and their potential biological functions."*
 
 ### Technologies
-RNA-seq · Ribo-seq · Proteogenomic pipelines · Protein structure prediction · In-silico drug screening · Pan-cancer survival analysis
+RNA-seq, Ribo-seq, Proteogenomic pipelines, Protein structure prediction, In-silico drug screening, Pan-cancer survival analysis
 
 ---
 
@@ -55,7 +55,7 @@ RNA-seq · Ribo-seq · Proteogenomic pipelines · Protein structure prediction �
 **Institution:** Indian Institute of Science Education and Research, Pune (IISER-Pune) · **Role:** Postdoctoral Researcher · **Period:** 2018 – 2019
 
 ### Problem
-Cichlid fishes are a textbook example of **rapid speciation**, but the genomic substrate that supports that speciation — particularly the role of de novo coding regions and accelerated evolution — was not well mapped using state-of-the-art comparative transcriptomics.
+Cichlid fishes are a textbook example of **rapid speciation**, but the genomic substrate that supports that speciation, particularly the role of de novo coding regions and accelerated evolution, was not well mapped using state-of-the-art comparative transcriptomics.
 
 ### Approach
 - Benchmarked state-of-the-art read alignment and assembly tools; built an optimized **de novo + reference-based comparative-transcriptomics pipeline** for two cichlid species.
@@ -74,7 +74,7 @@ RNA-seq · de novo and reference-based assembly · phyloP · Comparative genomic
 **Institution:** CSIR-National Chemical Laboratory ([Biosystems Analysis Lab](https://sites.google.com/site/biosystemsanalysis/Home?authuser=0)) · **Role:** Doctoral Researcher (Ph.D.) · **Period:** 2011 – 2017
 
 ### Problem
-Clinical and experimental observations in **skin pigmentation** — including how IFN-γ regulates melanosome maturation — needed mechanistic explanations grounded in signaling-network dynamics, in collaboration with three experimental labs.
+Clinical and experimental observations in **skin pigmentation** — including how IFN-γ regulates melanosome maturation, needed mechanistic explanations grounded in signaling-network dynamics, in collaboration with three experimental labs.
 
 ### Approach
 - Manually curated and reconstructed **signaling and metabolic networks** for melanosome transport and melanogenesis from primary literature.
@@ -86,7 +86,7 @@ Clinical and experimental observations in **skin pigmentation** — including ho
 - Doctoral-coursework literature review of mathematical models in skin pigmentation: [PDF]({{ site.baseurl }}/files/LitReview_MathModels_SkinPigmentation.pdf), [presentation]({{ site.baseurl }}/files/LitReview_MathModels_SkinPigmentation_presentation.pdf).
 
 ### Technologies
-Boolean modeling · ODE modeling · MATLAB · Parameter estimation · Sensitivity analysis · Network reconstruction · Cross-functional collaboration with wet labs
+Boolean modeling, ODE modeling, MATLAB, Parameter estimation, Sensitivity analysis, Network reconstruction, Cross-functional collaboration with wet labs
 
 ---
 
