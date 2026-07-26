@@ -1,5 +1,14 @@
 {% include base_path %}
 
+<style>
+/* Highlight the active page in the top nav */
+.masthead__menu-item.active a {
+  color: #000 !important;
+  font-weight: 700;
+  border-bottom: 2px solid #000;
+}
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -13,7 +22,8 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.url == page.url %}{% assign active = ' active' %}{% else %}{% assign active = '' %}{% endif %}
+            <li class="masthead__menu-item{{ active }}"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
