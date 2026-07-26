@@ -5,16 +5,39 @@ author_profile: true
 ---
 
 <style>
-.page__content ul { margin-bottom: 0.8em; }
+/* Hide the page H1 title since the top masthead nav already shows we're on this page */
+.page__title { display: none; }
+
+/* Compact vertical rhythm inside sections */
+.page__content ul { margin-bottom: 0.6em; }
 .page__content ul li { margin-bottom: 0.1em; line-height: 1.4; }
-.page__content h2 { margin-top: 1.3em; margin-bottom: 0.4em; }
-.page__content h3 { margin-top: 0.9em; margin-bottom: 0.25em; }
-.page__content p { margin-bottom: 0.7em; }
+.page__content h3 { margin-top: 0.9em; margin-bottom: 0.25em; font-size: 1.05em; }
+.page__content p { margin-bottom: 0.6em; }
+
+/* Accordion styling */
+.industry-section {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0.3em 0;
+}
+.industry-section > summary {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #222;
+  padding: 0.65em 0.2em;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.15s;
+}
+.industry-section > summary:hover { color: #2c3e50; }
+.industry-section[open] > summary { color: #2c3e50; }
+.industry-section > *:not(summary) { padding: 0 0.2em 0.6em 1.5em; }
 </style>
 
-Selected consulting and biotech engagements, framed as concise case studies so you can scan each in under a minute. Each section is divided into **Problem · Approach · Outcome · Technologies** — .
+Selected consulting and biotech engagements, framed as concise case studies (Problem · Approach · Outcome · Technologies). Click a project to expand.
 
-## Pharma R&D Lab Digital Maturity Assessment
+<details class="industry-section" id="lab-maturity" markdown="1">
+<summary>Pharma R&D Lab Digital Maturity Assessment</summary>
+
 **Employer:** Cognizant · **Role:** Lab Informatics Scientific SME (Senior Associate)
 
 ### Problem
@@ -34,9 +57,11 @@ A global pharmaceutical company needed an objective assessment of how digitally 
 ### Technologies & methods
 Digital maturity assessment, Pharma benchmarking, Stakeholder interviews, Structured surveys, Heatmap scoring, Instrument connectivity, Strategic leadership artifacts
 
----
+</details>
 
-## Bioinformatics Pipeline Validation & Documentation
+<details class="industry-section" id="pipeline-validation" markdown="1">
+<summary>Bioinformatics Pipeline Validation & Documentation</summary>
+
 **Employer:** Cognizant · **Role:** Bioinformatics Expert / SME
 
 ### Problem
@@ -61,9 +86,11 @@ A British vaccine major was building a cloud-native bioinformatics analysis plat
 ### Technologies
 Nextflow, nf-core, Google Cloud Workflows, Seqera/Nextflow Tower, Azure DevOps, GitHub Actions, Genomics & transcriptomics pipelines, Proteomics & metabolomics analysis
 
----
+</details>
 
-## Pre-Sales & RFP Support — Life Sciences Practice
+<details class="industry-section" id="rfp-support" markdown="1">
+<summary>Pre-Sales & RFP Support — Life Sciences Practice</summary>
+
 **Employer:** Cognizant · **Role:** Bioinformatics SME contributor
 
 ### Problem
@@ -82,9 +109,11 @@ Cognizant's life sciences consulting practice receives multiple client opportuni
 ### Technologies & methods
 Proposal writing, Capability presentations, Project planning, Resource/loading estimation, Scope definition, Client communication
 
----
+</details>
 
-## Cancer Biomarker & Target Discovery
+<details class="industry-section" id="cancer-biomarker" markdown="1">
+<summary>Cancer Biomarker & Target Discovery</summary>
+
 **Employer:** NonExomics LLP · **Role:** Head of Computational Biology (2021–2023)
 
 ### Problem
@@ -103,3 +132,5 @@ NonExomics, an early-stage biotech startup, needed to identify novel cancer biom
 
 ### Technologies
 Nextflow · nf-core · AWS (EC2, S3) · WGS · RNA-seq · siRNA & qPCR primer design · Remote team management
+
+</details>

@@ -5,16 +5,40 @@ author_profile: true
 ---
 
 <style>
-.page__content ul { margin-bottom: 0.8em; }
+/* Hide the page H1 title since the top masthead nav already shows we're on this page */
+.page__title { display: none; }
+
+/* Compact vertical rhythm inside sections */
+.page__content ul { margin-bottom: 0.6em; }
 .page__content ul li { margin-bottom: 0.1em; line-height: 1.4; }
-.page__content h2 { margin-top: 1.3em; margin-bottom: 0.4em; }
-.page__content h3 { margin-top: 0.9em; margin-bottom: 0.25em; }
-.page__content p { margin-bottom: 0.7em; }
+.page__content h3 { margin-top: 0.9em; margin-bottom: 0.25em; font-size: 1.05em; }
+.page__content p { margin-bottom: 0.6em; }
+
+/* Accordion styling */
+.research-section {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 0.3em 0;
+}
+.research-section > summary {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #222;
+  padding: 0.65em 0.2em;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.15s;
+}
+.research-section > summary:hover { color: #2c3e50; }
+.research-section[open] > summary { color: #2c3e50; }
+.research-section > *:not(summary) { padding: 0 0.2em 0.6em 1.5em; }
+.research-section img { max-width: 100%; height: auto; }
 </style>
 
-Selected academic research projects from my postdoctoral work and Ph.D., framed as concise case studies so you can scan each in under a minute, in the same format as the [Industry Projects](/industry/) page.
+Selected academic research projects from my postdoctoral work and Ph.D., framed as concise case studies (Problem · Approach · Outcome · Technologies) in the same format as the [Industry Projects](/industry/) page. Click a project to expand.
 
-## GATA3 Regulatory Biology
+<details class="research-section" id="gata3" markdown="1">
+<summary>GATA3 Regulatory Biology</summary>
+
 **Institution:** CSIR-National Chemical Laboratory · **Role:** Project Scientist II · **Period:** 2023 – Mar 2024
 
 ### Problem
@@ -31,9 +55,11 @@ The transcription factor **GATA3** is a major regulator of luminal breast cancer
 ### Technologies
 ChIP-seq, ATAC-seq, RNA-seq, de novo motif analysis, Regulatory network analysis
 
----
+</details>
 
-## Pan-Cancer Analysis of Novel Open Reading Frames (nORFs)
+<details class="research-section" id="norfs" markdown="1">
+<summary>Pan-Cancer Analysis of Novel Open Reading Frames (nORFs)</summary>
+
 **Institution:** Indian Institute of Science Education and Research, Pune (IISER-Pune) · **Role:** Postdoctoral Researcher · **Period:** 2018 – 2019
 
 ### Problem
@@ -49,9 +75,11 @@ Transcripts encoding **novel open reading frames (nORFs)**: short, previously un
 ### Technologies
 RNA-seq, Ribo-seq, Proteogenomic pipelines, Protein structure prediction, In-silico drug screening, Pan-cancer survival analysis
 
----
+</details>
 
-## Comparative Transcriptomics of Cichlid Speciation
+<details class="research-section" id="cichlid" markdown="1">
+<summary>Comparative Transcriptomics of Cichlid Speciation</summary>
+
 **Institution:** Indian Institute of Science Education and Research, Pune (IISER-Pune) · **Role:** Postdoctoral Researcher · **Period:** 2018 – 2019
 
 ### Problem
@@ -68,9 +96,11 @@ Cichlid fishes are a textbook example of **rapid speciation**, but the genomic s
 ### Technologies
 RNA-seq · de novo and reference-based assembly · phyloP · Comparative genomics · Evolutionary rate analysis
 
----
+</details>
 
-## Mechanistic Modeling of Skin Pigmentation
+<details class="research-section" id="pigmentation" markdown="1">
+<summary>Mechanistic Modeling of Skin Pigmentation</summary>
+
 **Institution:** CSIR-National Chemical Laboratory ([Biosystems Analysis Lab](https://sites.google.com/site/biosystemsanalysis/Home?authuser=0)) · **Role:** Doctoral Researcher (Ph.D.) · **Period:** 2011 – 2017
 
 ### Problem
@@ -88,9 +118,11 @@ Clinical and experimental observations in **skin pigmentation** — including ho
 ### Technologies
 Boolean modeling, ODE modeling, MATLAB, Parameter estimation, Sensitivity analysis, Network reconstruction, Cross-functional collaboration with wet labs
 
----
+</details>
 
-## Mathematical Modeling of Sumoylation
+<details class="research-section" id="sumoylation" markdown="1">
+<summary>Mathematical Modeling of Sumoylation</summary>
+
 **Institution:** CSIR-National Chemical Laboratory ([Biosystems Analysis Lab](https://sites.google.com/site/biosystemsanalysis/Home?authuser=0)) · **Role:** Doctoral Researcher (Ph.D.) · **Period:** 2011 – 2017
 
 ![Reaction network of the SUMO conjugation system modeled in the paper, showing SUMO preprocessing by SENP, E1-mediated activation, E2-mediated conjugation and ligation, autosumoylation of E2, and SENP-mediated deconjugation.]({{ site.baseurl }}/images/sumoylation-network.png)
@@ -111,3 +143,5 @@ Boolean modeling, ODE modeling, MATLAB, Parameter estimation, Sensitivity analys
 
 ### Technologies
 ODE modeling · MATLAB · Steady-state analysis · Sensitivity analysis · Parameter estimation · Network reconstruction
+
+</details>
