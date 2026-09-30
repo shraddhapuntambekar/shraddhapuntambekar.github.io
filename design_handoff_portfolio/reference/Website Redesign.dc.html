@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #E8E6E1; font-family: 'IBM Plex Sans', system-ui, sans-serif; }
+  a { color: #0F5F63; text-decoration: none; }
+  a:hover { color: #17181A; text-decoration: underline; }
+</style>
+</helmet>
+
+<section style="display: flex; flex-direction: column; gap: 28px; padding: 56px 48px 64px;">
+
+  <div style="display: flex; flex-direction: column; gap: 8px; max-width: 900px;">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #0F5F63;">Turn 4 — recommended hybrid</div>
+    <div style="font-family: 'Source Serif 4', serif; font-size: 34px; line-height: 1.15; color: #17181A;">Top-nav 1a family + a persistent status bar</div>
+    <div style="font-size: 15px; line-height: 1.6; color: #55585C; text-wrap: pretty;">The conventional, low-risk <a href="#1a">1a</a> layout — full width, top nav — with <a href="#3a">3a</a>'s best idea grafted in: a slim status strip pinned directly under the nav so your relocation + sponsorship message stays on screen the entire scroll. <a href="#4a">4a</a> landing, <a href="#4b">4b</a> Work, <a href="#4c">4c</a> Expertise. This is the one I'd ship.</div>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start;">
+
+    <div id="4a" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #0F5F63; padding: 5px 9px; border-radius: 3px;">4a</div>
+        <div style="font-size: 14px; color: #55585C;">Landing — recommended</div>
+      </div>
+      <div style="width: 1080px; background: #FBFAF8; border: 1px solid #D8D5CE; box-shadow: 0 24px 60px rgba(23,24,26,0.12);">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 56px; height: 66px; border-bottom: 1px solid #E7E4DD;">
+          <div style="font-family: 'Source Serif 4', serif; font-size: 19px; font-weight: 600; color: #17181A; letter-spacing: -0.01em;">Shraddha Puntambekar</div>
+          <div style="display: flex; align-items: center; gap: 26px; font-size: 14.5px; color: #55585C;">
+            <span style="color: #17181A; font-weight: 600; box-shadow: inset 0 -2px 0 #0F5F63;">About</span>
+            <span>Work</span><span>Expertise</span><span>Research</span><span>Writing</span>
+            <span style="color: #FBFAF8; background: #0F5F63; padding: 8px 14px; border-radius: 4px; font-weight: 500;">Résumé (PDF)</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 10px 56px; background: #17181A; color: #EDEBE6;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span style="width: 7px; height: 7px; border-radius: 50%; background: #6FD6C9; display: inline-block; box-shadow: 0 0 0 3px rgba(111,214,201,0.2);"></span>
+            <span style="font-size: 13.5px; color: #E9E7E1;">Relocating to {{ marketLabel }} with family · open to visa sponsorship · available Q4 2026</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 18px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #9BA09E;">
+            <span>Pune, India · works UK/EU hours</span>
+            <span style="color: #6FD6C9;">Let's talk →</span>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1.55fr 1fr; gap: 56px; padding: 56px 56px 48px; align-items: start;">
+          <div style="display: flex; flex-direction: column; gap: 22px;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #0F5F63;">Bioinformatics · multi-omics · scientific workflows</div>
+            <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 50px; line-height: 1.06; letter-spacing: -0.02em; color: #17181A; text-wrap: pretty;">I turn messy multi-omics data into decisions drug programmes can act on.</h1>
+            <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #45484C; max-width: 46ch; text-wrap: pretty;">Bioinformatics scientist, 10+ years across academic research, an early-stage cancer biotech, and global pharma consulting. I build and validate the cloud pipelines discovery teams depend on — and document them so the next person can run them.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 12px; padding-top: 4px;">
+              <span style="background: #17181A; color: #FBFAF8; padding: 13px 20px; border-radius: 4px; font-size: 15px; font-weight: 500;">Download résumé</span>
+              <span style="border: 1px solid #C9C5BC; color: #17181A; padding: 13px 20px; border-radius: 4px; font-size: 15px; font-weight: 500;">shraddha.puntambekar@gmail.com</span>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 18px; font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; color: #6B6E72;">
+              <span>LinkedIn</span><span>GitHub</span><span>Google Scholar</span><span>ORCID</span>
+            </div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <div style="aspect-ratio: 4/5; width: 100%; border: 1px solid #D8D5CE; background-image: repeating-linear-gradient(135deg, #F1EFEA 0 8px, #E9E6E0 8px 16px); display: flex; align-items: flex-end; padding: 14px;">
+              <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #6B6E72; background: #FBFAF8; border: 1px solid #E0DCD4; padding: 5px 8px;">portrait — professional, daylight</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #E7E4DD; border-bottom: 1px solid #E7E4DD; background: #F5F3EE;">
+          <div style="padding: 26px 28px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 6px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 32px; color: #17181A; line-height: 1;">17</div>
+            <div style="font-size: 13px; line-height: 1.45; color: #55585C;">omics Nextflow pipelines validated</div>
+          </div>
+          <div style="padding: 26px 28px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 6px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 32px; color: #17181A; line-height: 1;">10+</div>
+            <div style="font-size: 13px; line-height: 1.45; color: #55585C;">years across academia, biotech, pharma</div>
+          </div>
+          <div style="padding: 26px 28px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 6px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 32px; color: #17181A; line-height: 1;">12</div>
+            <div style="font-size: 13px; line-height: 1.45; color: #55585C;">peer-reviewed publications</div>
+          </div>
+          <div style="padding: 26px 28px; display: flex; flex-direction: column; gap: 6px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 32px; color: #17181A; line-height: 1;">3</div>
+            <div style="font-size: 13px; line-height: 1.45; color: #55585C;">person bioinformatics function built &amp; led</div>
+          </div>
+        </div>
+
+        <div style="padding: 52px 56px 16px; display: flex; align-items: baseline; justify-content: space-between; gap: 24px;">
+          <h2 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 28px; color: #17181A; letter-spacing: -0.01em;">Selected work</h2>
+          <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #6B6E72;">Problem → what I did → outcome</span>
+        </div>
+        <div style="padding: 12px 56px 8px;">
+          <sc-for list="{{ cases }}" as="c" hint-placeholder-count="3">
+            <div style="display: grid; grid-template-columns: 210px 1fr; gap: 40px; padding: 30px 0; border-top: 1px solid #E7E4DD;">
+              <div style="display: flex; flex-direction: column; gap: 8px;">
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63;">{{ c.org }}</div>
+                <div style="font-size: 13.5px; line-height: 1.5; color: #6B6E72;">{{ c.role }}</div>
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #9A9891;">{{ c.years }}</div>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 12px;">
+                <div style="font-family: 'Source Serif 4', serif; font-size: 23px; line-height: 1.25; color: #17181A; text-wrap: pretty;">{{ c.title }}</div>
+                <div style="font-size: 15.5px; line-height: 1.62; color: #45484C; max-width: 62ch; text-wrap: pretty;">{{ c.body }}</div>
+                <div style="display: flex; align-items: flex-start; gap: 10px; padding: 12px 14px; background: #EFF5F4; border-left: 2px solid #0F5F63;">
+                  <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63; padding-top: 2px; white-space: nowrap;">Outcome</span>
+                  <span style="font-size: 14.5px; line-height: 1.55; color: #24363A;">{{ c.outcome }}</span>
+                </div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+
+        <div style="margin: 44px 0 0; background: #17181A; color: #F3F1EC; padding: 44px 56px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px; align-items: center;">
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 28px; line-height: 1.2; letter-spacing: -0.01em;">Hiring for a bioinformatics or scientific-platform role in {{ marketLabel }}?</div>
+            <div style="font-size: 15.5px; line-height: 1.6; color: #A9A79F; max-width: 52ch; text-wrap: pretty;">I'm relocating with my family and can start a sponsorship process now.</div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <span style="background: #F3F1EC; color: #17181A; padding: 14px 18px; border-radius: 4px; font-size: 15px; font-weight: 500; text-align: center;">Email me</span>
+            <span style="border: 1px solid #43454A; padding: 14px 18px; border-radius: 4px; font-size: 15px; text-align: center; color: #F3F1EC;">Book 20 minutes</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="4b" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #0F5F63; padding: 5px 9px; border-radius: 3px;">4b</div>
+        <div style="font-size: 14px; color: #55585C;">Work — recommended</div>
+      </div>
+      <div style="width: 1080px; background: #FBFAF8; border: 1px solid #D8D5CE; box-shadow: 0 24px 60px rgba(23,24,26,0.12);">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 56px; height: 66px; border-bottom: 1px solid #E7E4DD;">
+          <div style="font-family: 'Source Serif 4', serif; font-size: 19px; font-weight: 600; color: #17181A; letter-spacing: -0.01em;">Shraddha Puntambekar</div>
+          <div style="display: flex; align-items: center; gap: 26px; font-size: 14.5px; color: #55585C;">
+            <span>About</span>
+            <span style="color: #17181A; font-weight: 600; box-shadow: inset 0 -2px 0 #0F5F63;">Work</span>
+            <span>Expertise</span><span>Research</span><span>Writing</span>
+            <span style="color: #FBFAF8; background: #0F5F63; padding: 8px 14px; border-radius: 4px; font-weight: 500;">Résumé (PDF)</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 10px 56px; background: #17181A; color: #EDEBE6;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span style="width: 7px; height: 7px; border-radius: 50%; background: #6FD6C9; display: inline-block; box-shadow: 0 0 0 3px rgba(111,214,201,0.2);"></span>
+            <span style="font-size: 13.5px; color: #E9E7E1;">Relocating to {{ marketLabel }} with family · open to visa sponsorship · available Q4 2026</span>
+          </div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #6FD6C9;">Let's talk →</div>
+        </div>
+
+        <div style="padding: 52px 56px 32px; border-bottom: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 14px;">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #0F5F63;">Industry work</div>
+          <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 42px; line-height: 1.08; letter-spacing: -0.02em; color: #17181A; text-wrap: pretty;">Six years of pharma and biotech engagements, as case studies.</h1>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 4px;">
+            <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; background: #17181A; color: #FBFAF8;">All</span>
+            <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; border: 1px solid #D8D5CE; color: #55585C;">Pipelines</span>
+            <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; border: 1px solid #D8D5CE; color: #55585C;">Discovery</span>
+            <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; border: 1px solid #D8D5CE; color: #55585C;">Consulting</span>
+          </div>
+        </div>
+        <div style="padding: 8px 56px 48px;">
+          <sc-for list="{{ cases }}" as="c" hint-placeholder-count="3">
+            <div style="display: grid; grid-template-columns: 210px 1fr 300px; gap: 40px; padding: 34px 0; border-bottom: 1px solid #E7E4DD;">
+              <div style="display: flex; flex-direction: column; gap: 8px;">
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63;">{{ c.org }}</div>
+                <div style="font-size: 13.5px; line-height: 1.5; color: #6B6E72;">{{ c.role }}</div>
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #9A9891;">{{ c.years }}</div>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 12px;">
+                <div style="font-family: 'Source Serif 4', serif; font-size: 24px; line-height: 1.24; color: #17181A; text-wrap: pretty;">{{ c.title }}</div>
+                <div style="font-size: 15.5px; line-height: 1.62; color: #45484C; text-wrap: pretty;">{{ c.body }}</div>
+                <div style="display: flex; flex-wrap: wrap; gap: 7px; padding-top: 2px;">
+                  <sc-for list="{{ c.tech }}" as="t" hint-placeholder-count="5">
+                    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #55585C; border: 1px solid #DFDBD3; padding: 4px 8px; border-radius: 3px;">{{ t }}</span>
+                  </sc-for>
+                </div>
+              </div>
+              <div style="background: #F5F3EE; border: 1px solid #E7E4DD; padding: 20px; display: flex; flex-direction: column; gap: 8px; align-self: start;">
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #0F5F63;">Outcome</div>
+                <div style="font-size: 14px; line-height: 1.55; color: #24363A; text-wrap: pretty;">{{ c.outcome }}</div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+
+    <div id="4c" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #0F5F63; padding: 5px 9px; border-radius: 3px;">4c</div>
+        <div style="font-size: 14px; color: #55585C;">Expertise — recommended</div>
+      </div>
+      <div style="width: 1080px; background: #FBFAF8; border: 1px solid #D8D5CE; box-shadow: 0 24px 60px rgba(23,24,26,0.12);">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 56px; height: 66px; border-bottom: 1px solid #E7E4DD;">
+          <div style="font-family: 'Source Serif 4', serif; font-size: 19px; font-weight: 600; color: #17181A; letter-spacing: -0.01em;">Shraddha Puntambekar</div>
+          <div style="display: flex; align-items: center; gap: 26px; font-size: 14.5px; color: #55585C;">
+            <span>About</span><span>Work</span>
+            <span style="color: #17181A; font-weight: 600; box-shadow: inset 0 -2px 0 #0F5F63;">Expertise</span>
+            <span>Research</span><span>Writing</span>
+            <span style="color: #FBFAF8; background: #0F5F63; padding: 8px 14px; border-radius: 4px; font-weight: 500;">Résumé (PDF)</span>
+          </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 10px 56px; background: #17181A; color: #EDEBE6;">
+          <div style="display: flex; align-items: center; gap: 12px;">
+            <span style="width: 7px; height: 7px; border-radius: 50%; background: #6FD6C9; display: inline-block; box-shadow: 0 0 0 3px rgba(111,214,201,0.2);"></span>
+            <span style="font-size: 13.5px; color: #E9E7E1;">Relocating to {{ marketLabel }} with family · open to visa sponsorship · available Q4 2026</span>
+          </div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #6FD6C9;">Let's talk →</div>
+        </div>
+
+        <div style="padding: 52px 56px 36px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px; align-items: end;">
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #0F5F63;">Expertise</div>
+            <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 42px; line-height: 1.08; letter-spacing: -0.02em; color: #17181A; text-wrap: pretty;">Four things I get brought in to do.</h1>
+          </div>
+          <p style="margin: 0 0 6px; font-size: 16px; line-height: 1.6; color: #55585C; text-wrap: pretty;">Everything is on the page — no clicking to expand. Each area ends with where I've actually done it.</p>
+        </div>
+        <div style="padding: 0 56px 56px;">
+          <sc-for list="{{ expertise }}" as="e" hint-placeholder-count="4">
+            <div style="display: grid; grid-template-columns: 64px 1fr 320px; gap: 36px; padding: 32px 0; border-top: 1px solid #E7E4DD;">
+              <div style="font-family: 'Source Serif 4', serif; font-size: 30px; color: #C9C5BC; line-height: 1;">{{ e.n }}</div>
+              <div style="display: flex; flex-direction: column; gap: 12px;">
+                <div style="font-family: 'Source Serif 4', serif; font-size: 26px; line-height: 1.2; color: #17181A; letter-spacing: -0.01em;">{{ e.name }}</div>
+                <div style="font-size: 16px; line-height: 1.62; color: #45484C; max-width: 52ch; text-wrap: pretty;">{{ e.lede }}</div>
+                <div style="display: flex; flex-wrap: wrap; gap: 7px; padding-top: 4px;">
+                  <sc-for list="{{ e.does }}" as="d" hint-placeholder-count="6">
+                    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #55585C; border: 1px solid #DFDBD3; padding: 4px 8px; border-radius: 3px;">{{ d }}</span>
+                  </sc-for>
+                </div>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 16px; align-self: start;">
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                  <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #9A9891;">Applied to</div>
+                  <div style="font-size: 14px; line-height: 1.55; color: #55585C;">{{ e.used }}</div>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 6px; padding: 14px; background: #EFF5F4; border-left: 2px solid #0F5F63;">
+                  <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #0F5F63;">Evidence</div>
+                  <div style="font-size: 14px; line-height: 1.55; color: #24363A; text-wrap: pretty;">{{ e.proof }}</div>
+                </div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 28px; padding: 56px 48px 64px; border-top: 1px solid #D5D2CB;">
+
+  <div style="display: flex; flex-direction: column; gap: 8px; max-width: 900px;">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #6B6E72;">Turn 3 — alternate 1a layout: fixed side-rail</div>
+    <div style="font-family: 'Source Serif 4', serif; font-size: 34px; line-height: 1.15; color: #17181A;">Same palette, a different spine</div>
+    <div style="font-size: 15px; line-height: 1.6; color: #55585C; text-wrap: pretty;">Same warm paper, serif and mono as <a href="#1a">1a</a> — but identity and nav move to a fixed left rail, so every page shares one persistent column and the content reads as a single running document. <a href="#3a">3a</a> landing, <a href="#3b">3b</a> Work, <a href="#3c">3c</a> Expertise.</div>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start;">
+
+    <div id="3a" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #17181A; padding: 5px 9px; border-radius: 3px;">3a</div>
+        <div style="font-size: 14px; color: #55585C;">Landing — side-rail</div>
+      </div>
+      <div style="width: 1120px; display: grid; grid-template-columns: 300px 1fr; background: #FBFAF8; border: 1px solid #D8D5CE; box-shadow: 0 24px 60px rgba(23,24,26,0.12);">
+
+        <div style="background: #17181A; color: #EDEBE6; padding: 44px 32px; display: flex; flex-direction: column; gap: 28px; min-height: 900px;">
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <div style="width: 84px; height: 84px; border-radius: 50%; background-image: repeating-linear-gradient(135deg, #2A2E30 0 7px, #23282A 7px 14px); border: 1px solid #3A3F41;"></div>
+            <div style="font-family: 'Source Serif 4', serif; font-size: 24px; line-height: 1.15; color: #F4F2ED; letter-spacing: -0.01em;">Shraddha Puntambekar</div>
+            <div style="font-size: 14px; line-height: 1.5; color: #9BA09E;">Bioinformatics scientist — multi-omics, workflows, scientific platforms.</div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 2px; font-size: 15px;">
+            <span style="padding: 10px 0; color: #F4F2ED; box-shadow: inset 2px 0 0 #6FD6C9; padding-left: 14px;">About</span>
+            <span style="padding: 10px 0; color: #9BA09E; padding-left: 14px;">Work</span>
+            <span style="padding: 10px 0; color: #9BA09E; padding-left: 14px;">Expertise</span>
+            <span style="padding: 10px 0; color: #9BA09E; padding-left: 14px;">Research</span>
+            <span style="padding: 10px 0; color: #9BA09E; padding-left: 14px;">Publications</span>
+            <span style="padding: 10px 0; color: #9BA09E; padding-left: 14px;">Writing</span>
+          </div>
+          <div style="margin-top: auto; display: flex; flex-direction: column; gap: 14px;">
+            <div style="display: flex; flex-direction: column; gap: 7px; padding: 14px; border: 1px solid #2E3335; border-radius: 4px;">
+              <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: #6FD6C9;">Status</div>
+              <div style="font-size: 13px; line-height: 1.5; color: #C9CCC8;">Pune, India · relocating to {{ marketLabel }} with family · open to sponsorship</div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 14px; font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: #8C918F;">
+              <span>LinkedIn</span><span>GitHub</span><span>Scholar</span>
+            </div>
+            <span style="background: #6FD6C9; color: #0B1211; text-align: center; padding: 12px; border-radius: 4px; font-size: 14px; font-weight: 600;">Résumé (PDF)</span>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+          <div style="padding: 60px 52px 44px; border-bottom: 1px solid #E7E4DD;">
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+              <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #0F5F63;">Bioinformatics · multi-omics · scientific workflows</div>
+              <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 46px; line-height: 1.08; letter-spacing: -0.02em; color: #17181A; text-wrap: pretty;">I turn messy multi-omics data into decisions drug programmes can act on.</h1>
+              <p style="margin: 0; font-size: 17px; line-height: 1.62; color: #45484C; max-width: 56ch; text-wrap: pretty;">Ten years across academic research, an early-stage cancer biotech, and global pharma consulting — building and validating the cloud pipelines discovery teams depend on, and documenting them so the next person can run them.</p>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: repeat(4, 1fr); border-bottom: 1px solid #E7E4DD;">
+            <div style="padding: 24px 22px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 5px;">
+              <div style="font-family: 'Source Serif 4', serif; font-size: 28px; color: #17181A; line-height: 1;">17</div>
+              <div style="font-size: 12.5px; line-height: 1.45; color: #55585C;">omics pipelines validated</div>
+            </div>
+            <div style="padding: 24px 22px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 5px;">
+              <div style="font-family: 'Source Serif 4', serif; font-size: 28px; color: #17181A; line-height: 1;">10+</div>
+              <div style="font-size: 12.5px; line-height: 1.45; color: #55585C;">years across the field</div>
+            </div>
+            <div style="padding: 24px 22px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 5px;">
+              <div style="font-family: 'Source Serif 4', serif; font-size: 28px; color: #17181A; line-height: 1;">12</div>
+              <div style="font-size: 12.5px; line-height: 1.45; color: #55585C;">peer-reviewed papers</div>
+            </div>
+            <div style="padding: 24px 22px; display: flex; flex-direction: column; gap: 5px;">
+              <div style="font-family: 'Source Serif 4', serif; font-size: 28px; color: #17181A; line-height: 1;">3</div>
+              <div style="font-size: 12.5px; line-height: 1.45; color: #55585C;">person team built &amp; led</div>
+            </div>
+          </div>
+
+          <div style="padding: 44px 52px 20px; display: flex; align-items: baseline; justify-content: space-between; gap: 24px;">
+            <h2 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 26px; color: #17181A; letter-spacing: -0.01em;">Selected work</h2>
+            <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #6B6E72;">Problem → what I did → outcome</span>
+          </div>
+          <div style="padding: 0 52px 20px;">
+            <sc-for list="{{ cases }}" as="c" hint-placeholder-count="3">
+              <div style="display: flex; flex-direction: column; gap: 10px; padding: 26px 0; border-top: 1px solid #E7E4DD;">
+                <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 20px;">
+                  <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63;">{{ c.org }} · {{ c.role }}</div>
+                  <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #9A9891; white-space: nowrap;">{{ c.years }}</div>
+                </div>
+                <div style="font-family: 'Source Serif 4', serif; font-size: 22px; line-height: 1.25; color: #17181A; text-wrap: pretty;">{{ c.title }}</div>
+                <div style="display: flex; align-items: flex-start; gap: 10px; padding: 11px 14px; background: #EFF5F4; border-left: 2px solid #0F5F63;">
+                  <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63; padding-top: 2px; white-space: nowrap;">Outcome</span>
+                  <span style="font-size: 14px; line-height: 1.55; color: #24363A; text-wrap: pretty;">{{ c.outcome }}</span>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+
+          <div style="margin-top: auto; background: #F5F3EE; border-top: 1px solid #E7E4DD; padding: 32px 52px; display: flex; align-items: center; justify-content: space-between; gap: 32px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 20px; line-height: 1.3; color: #17181A; max-width: 46ch; text-wrap: pretty;">Hiring for a bioinformatics or scientific-platform role in {{ marketLabel }}? I can start a sponsorship process now.</div>
+            <span style="background: #17181A; color: #FBFAF8; padding: 13px 22px; border-radius: 4px; font-size: 15px; font-weight: 500; white-space: nowrap;">Email me</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="3b" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #17181A; padding: 5px 9px; border-radius: 3px;">3b</div>
+        <div style="font-size: 14px; color: #55585C;">Work — side-rail</div>
+      </div>
+      <div style="width: 1120px; display: grid; grid-template-columns: 300px 1fr; background: #FBFAF8; border: 1px solid #D8D5CE; box-shadow: 0 24px 60px rgba(23,24,26,0.12);">
+        <div style="background: #17181A; color: #EDEBE6; padding: 44px 32px; display: flex; flex-direction: column; gap: 28px; min-height: 760px;">
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <div style="width: 84px; height: 84px; border-radius: 50%; background-image: repeating-linear-gradient(135deg, #2A2E30 0 7px, #23282A 7px 14px); border: 1px solid #3A3F41;"></div>
+            <div style="font-family: 'Source Serif 4', serif; font-size: 24px; line-height: 1.15; color: #F4F2ED; letter-spacing: -0.01em;">Shraddha Puntambekar</div>
+            <div style="font-size: 14px; line-height: 1.5; color: #9BA09E;">Bioinformatics scientist — multi-omics, workflows, scientific platforms.</div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 2px; font-size: 15px;">
+            <span style="padding: 10px 0 10px 14px; color: #9BA09E;">About</span>
+            <span style="padding: 10px 0 10px 14px; color: #F4F2ED; box-shadow: inset 2px 0 0 #6FD6C9;">Work</span>
+            <span style="padding: 10px 0 10px 14px; color: #9BA09E;">Expertise</span>
+            <span style="padding: 10px 0 10px 14px; color: #9BA09E;">Research</span>
+            <span style="padding: 10px 0 10px 14px; color: #9BA09E;">Publications</span>
+            <span style="padding: 10px 0 10px 14px; color: #9BA09E;">Writing</span>
+          </div>
+          <div style="margin-top: auto; display: flex; flex-direction: column; gap: 8px;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: #6FD6C9;">On this page</div>
+            <span style="font-size: 13.5px; color: #C9CCC8;">Cognizant — vaccine major</span>
+            <span style="font-size: 13.5px; color: #C9CCC8;">NonExomics — cancer biotech</span>
+            <span style="font-size: 13.5px; color: #C9CCC8;">Cognizant — lab maturity</span>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+          <div style="padding: 56px 52px 36px; border-bottom: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 14px;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #0F5F63;">Industry work</div>
+            <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em; color: #17181A; text-wrap: pretty;">Case studies: the problem, what I did, what changed.</h1>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px; padding-top: 4px;">
+              <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; background: #17181A; color: #FBFAF8;">All</span>
+              <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; border: 1px solid #D8D5CE; color: #55585C;">Pipelines</span>
+              <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; border: 1px solid #D8D5CE; color: #55585C;">Discovery</span>
+              <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; border: 1px solid #D8D5CE; color: #55585C;">Consulting</span>
+            </div>
+          </div>
+          <div style="padding: 8px 52px 44px;">
+            <sc-for list="{{ cases }}" as="c" hint-placeholder-count="3">
+              <div style="display: flex; flex-direction: column; gap: 14px; padding: 32px 0; border-bottom: 1px solid #E7E4DD;">
+                <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 20px;">
+                  <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63;">{{ c.org }} · {{ c.role }}</div>
+                  <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #9A9891; white-space: nowrap;">{{ c.years }}</div>
+                </div>
+                <div style="font-family: 'Source Serif 4', serif; font-size: 24px; line-height: 1.24; color: #17181A; text-wrap: pretty;">{{ c.title }}</div>
+                <div style="font-size: 15.5px; line-height: 1.62; color: #45484C; max-width: 66ch; text-wrap: pretty;">{{ c.body }}</div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding-top: 4px;">
+                  <div style="display: flex; flex-direction: column; gap: 8px; padding: 14px 16px; background: #EFF5F4; border-left: 2px solid #0F5F63;">
+                    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63;">Outcome</div>
+                    <div style="font-size: 14px; line-height: 1.55; color: #24363A; text-wrap: pretty;">{{ c.outcome }}</div>
+                  </div>
+                  <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #9A9891;">Stack</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 7px;">
+                      <sc-for list="{{ c.tech }}" as="t" hint-placeholder-count="5">
+                        <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #55585C; border: 1px solid #DFDBD3; padding: 4px 8px; border-radius: 3px;">{{ t }}</span>
+                      </sc-for>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="3c" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #17181A; padding: 5px 9px; border-radius: 3px;">3c</div>
+        <div style="font-size: 14px; color: #55585C;">Expertise — side-rail</div>
+      </div>
+      <div style="width: 1120px; display: grid; grid-template-columns: 300px 1fr; background: #FBFAF8; border: 1px solid #D8D5CE; box-shadow: 0 24px 60px rgba(23,24,26,0.12);">
+        <div style="background: #17181A; color: #EDEBE6; padding: 44px 32px; display: flex; flex-direction: column; gap: 28px; min-height: 820px;">
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <div style="width: 84px; height: 84px; border-radius: 50%; background-image: repeating-linear-gradient(135deg, #2A2E30 0 7px, #23282A 7px 14px); border: 1px solid #3A3F41;"></div>
+            <div style="font-family: 'Source Serif 4', serif; font-size: 24px; line-height: 1.15; color: #F4F2ED; letter-spacing: -0.01em;">Shraddha Puntambekar</div>
+            <div style="font-size: 14px; line-height: 1.5; color: #9BA09E;">Bioinformatics scientist — multi-omics, workflows, scientific platforms.</div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 2px; font-size: 15px;">
+            <span style="padding: 10px 0 10px 14px; color: #9BA09E;">About</span>
+            <span style="padding: 10px 0 10px 14px; color: #9BA09E;">Work</span>
+            <span style="padding: 10px 0 10px 14px; color: #F4F2ED; box-shadow: inset 2px 0 0 #6FD6C9;">Expertise</span>
+            <span style="padding: 10px 0 10px 14px; color: #9BA09E;">Research</span>
+            <span style="padding: 10px 0 10px 14px; color: #9BA09E;">Publications</span>
+            <span style="padding: 10px 0 10px 14px; color: #9BA09E;">Writing</span>
+          </div>
+          <div style="margin-top: auto; display: flex; flex-direction: column; gap: 8px;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: #6FD6C9;">On this page</div>
+            <span style="font-size: 13.5px; color: #C9CCC8;">01 — Multi-omics analytics</span>
+            <span style="font-size: 13.5px; color: #C9CCC8;">02 — Workflows &amp; platforms</span>
+            <span style="font-size: 13.5px; color: #C9CCC8;">03 — Systems biology</span>
+            <span style="font-size: 13.5px; color: #C9CCC8;">04 — R&amp;D transformation</span>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column;">
+          <div style="padding: 56px 52px 36px; border-bottom: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 14px;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #0F5F63;">Expertise</div>
+            <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em; color: #17181A; text-wrap: pretty;">Four things I get brought in to do — and where I've done them.</h1>
+          </div>
+          <div style="padding: 0 52px 44px;">
+            <sc-for list="{{ expertise }}" as="e" hint-placeholder-count="4">
+              <div style="display: flex; flex-direction: column; gap: 14px; padding: 32px 0; border-bottom: 1px solid #E7E4DD;">
+                <div style="display: flex; align-items: baseline; gap: 16px;">
+                  <span style="font-family: 'Source Serif 4', serif; font-size: 24px; color: #C9C5BC; line-height: 1;">{{ e.n }}</span>
+                  <span style="font-family: 'Source Serif 4', serif; font-size: 25px; line-height: 1.2; color: #17181A; letter-spacing: -0.01em;">{{ e.name }}</span>
+                </div>
+                <div style="font-size: 16px; line-height: 1.62; color: #45484C; max-width: 62ch; text-wrap: pretty;">{{ e.lede }}</div>
+                <div style="display: flex; flex-wrap: wrap; gap: 7px; padding-top: 2px;">
+                  <sc-for list="{{ e.does }}" as="d" hint-placeholder-count="6">
+                    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #55585C; border: 1px solid #DFDBD3; padding: 4px 8px; border-radius: 3px;">{{ d }}</span>
+                  </sc-for>
+                </div>
+                <div style="display: flex; align-items: flex-start; gap: 10px; padding: 12px 14px; background: #EFF5F4; border-left: 2px solid #0F5F63; margin-top: 2px;">
+                  <span style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63; padding-top: 2px; white-space: nowrap;">Evidence</span>
+                  <span style="font-size: 14px; line-height: 1.55; color: #24363A; text-wrap: pretty;">{{ e.proof }}</span>
+                </div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 28px; padding: 56px 48px 64px; border-top: 1px solid #D5D2CB;">
+
+  <div style="display: flex; flex-direction: column; gap: 8px; max-width: 900px;">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #6B6E72;">Turn 2 — inner pages, 1a system</div>
+    <div style="font-family: 'Source Serif 4', serif; font-size: 34px; line-height: 1.15; color: #17181A;">Work, Expertise and Publications</div>
+    <div style="font-size: 15px; line-height: 1.6; color: #55585C; text-wrap: pretty;">Same type, palette and grid as <a href="#1a">1a</a>. Research, GitHub and Writing follow the <a href="#2a">2a</a> pattern; Sitemap goes away.</div>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start;">
+
+    <div id="2a" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #17181A; padding: 5px 9px; border-radius: 3px;">2a</div>
+        <div style="font-size: 14px; color: #55585C;">Work — case study index</div>
+      </div>
+      <div style="width: 1080px; background: #FBFAF8; border: 1px solid #D8D5CE; box-shadow: 0 24px 60px rgba(23,24,26,0.12);">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 56px; height: 68px; border-bottom: 1px solid #E7E4DD;">
+          <div style="font-family: 'Source Serif 4', serif; font-size: 19px; font-weight: 600; color: #17181A; letter-spacing: -0.01em;">Shraddha Puntambekar</div>
+          <div style="display: flex; align-items: center; gap: 26px; font-size: 14.5px; color: #55585C;">
+            <span style="color: #17181A; font-weight: 600; box-shadow: inset 0 -2px 0 #0F5F63;">Work</span>
+            <span>Expertise</span>
+            <span>Research</span>
+            <span>Writing</span>
+            <span style="color: #FBFAF8; background: #0F5F63; padding: 8px 14px; border-radius: 4px; font-weight: 500;">Résumé (PDF)</span>
+          </div>
+        </div>
+
+        <div style="padding: 56px 56px 36px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px; align-items: end; border-bottom: 1px solid #E7E4DD;">
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #0F5F63;">Industry work</div>
+            <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 44px; line-height: 1.08; letter-spacing: -0.02em; color: #17181A; text-wrap: pretty;">Six years of pharma and biotech engagements, written as case studies.</h1>
+            <p style="margin: 0; font-size: 17px; line-height: 1.6; color: #45484C; max-width: 50ch; text-wrap: pretty;">Each one states the problem the client had, what I actually did, and what changed as a result. Client names are given where the engagement is public.</p>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 10px; padding-bottom: 6px;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #6B6E72;">Filter</div>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+              <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; background: #17181A; color: #FBFAF8;">All</span>
+              <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; border: 1px solid #D8D5CE; color: #55585C;">Pipelines</span>
+              <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; border: 1px solid #D8D5CE; color: #55585C;">Discovery</span>
+              <span style="font-size: 13px; padding: 7px 12px; border-radius: 999px; border: 1px solid #D8D5CE; color: #55585C;">Consulting</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding: 8px 56px 48px;">
+          <sc-for list="{{ cases }}" as="c" hint-placeholder-count="3">
+            <div style="display: grid; grid-template-columns: 210px 1fr 300px; gap: 40px; padding: 34px 0; border-bottom: 1px solid #E7E4DD;">
+              <div style="display: flex; flex-direction: column; gap: 8px;">
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63;">{{ c.org }}</div>
+                <div style="font-size: 13.5px; line-height: 1.5; color: #6B6E72;">{{ c.role }}</div>
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #9A9891;">{{ c.years }}</div>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 12px;">
+                <div style="font-family: 'Source Serif 4', serif; font-size: 24px; line-height: 1.24; color: #17181A; text-wrap: pretty;">{{ c.title }}</div>
+                <div style="font-size: 15.5px; line-height: 1.62; color: #45484C; text-wrap: pretty;">{{ c.body }}</div>
+                <div style="display: flex; flex-wrap: wrap; gap: 7px; padding-top: 2px;">
+                  <sc-for list="{{ c.tech }}" as="t" hint-placeholder-count="5">
+                    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #55585C; border: 1px solid #DFDBD3; padding: 4px 8px; border-radius: 3px;">{{ t }}</span>
+                  </sc-for>
+                </div>
+                <div style="font-size: 14.5px; color: #0F5F63; padding-top: 4px;">Read the full case study →</div>
+              </div>
+              <div style="background: #F5F3EE; border: 1px solid #E7E4DD; padding: 20px; display: flex; flex-direction: column; gap: 8px; align-self: start;">
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #0F5F63;">Outcome</div>
+                <div style="font-size: 14px; line-height: 1.55; color: #24363A; text-wrap: pretty;">{{ c.outcome }}</div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+
+    <div id="2b" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #17181A; padding: 5px 9px; border-radius: 3px;">2b</div>
+        <div style="font-size: 14px; color: #55585C;">Expertise — no accordions</div>
+      </div>
+      <div style="width: 1080px; background: #FBFAF8; border: 1px solid #D8D5CE; box-shadow: 0 24px 60px rgba(23,24,26,0.12);">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 56px; height: 68px; border-bottom: 1px solid #E7E4DD;">
+          <div style="font-family: 'Source Serif 4', serif; font-size: 19px; font-weight: 600; color: #17181A; letter-spacing: -0.01em;">Shraddha Puntambekar</div>
+          <div style="display: flex; align-items: center; gap: 26px; font-size: 14.5px; color: #55585C;">
+            <span>Work</span>
+            <span style="color: #17181A; font-weight: 600; box-shadow: inset 0 -2px 0 #0F5F63;">Expertise</span>
+            <span>Research</span>
+            <span>Writing</span>
+            <span style="color: #FBFAF8; background: #0F5F63; padding: 8px 14px; border-radius: 4px; font-weight: 500;">Résumé (PDF)</span>
+          </div>
+        </div>
+
+        <div style="padding: 56px 56px 40px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px; align-items: end;">
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #0F5F63;">Expertise</div>
+            <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 44px; line-height: 1.08; letter-spacing: -0.02em; color: #17181A; text-wrap: pretty;">Four things I get brought in to do.</h1>
+          </div>
+          <p style="margin: 0 0 6px; font-size: 16px; line-height: 1.6; color: #55585C; text-wrap: pretty;">Everything below is on the page — no clicking to expand. Each area ends with where I've actually done it, because a capability list without evidence is just a keyword list.</p>
+        </div>
+
+        <div style="padding: 0 56px 56px;">
+          <sc-for list="{{ expertise }}" as="e" hint-placeholder-count="4">
+            <div style="display: grid; grid-template-columns: 64px 1fr 320px; gap: 36px; padding: 32px 0; border-top: 1px solid #E7E4DD;">
+              <div style="font-family: 'Source Serif 4', serif; font-size: 30px; color: #C9C5BC; line-height: 1;">{{ e.n }}</div>
+              <div style="display: flex; flex-direction: column; gap: 12px;">
+                <div style="font-family: 'Source Serif 4', serif; font-size: 26px; line-height: 1.2; color: #17181A; letter-spacing: -0.01em;">{{ e.name }}</div>
+                <div style="font-size: 16px; line-height: 1.62; color: #45484C; max-width: 52ch; text-wrap: pretty;">{{ e.lede }}</div>
+                <div style="display: flex; flex-wrap: wrap; gap: 7px; padding-top: 4px;">
+                  <sc-for list="{{ e.does }}" as="d" hint-placeholder-count="6">
+                    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #55585C; border: 1px solid #DFDBD3; padding: 4px 8px; border-radius: 3px;">{{ d }}</span>
+                  </sc-for>
+                </div>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 16px; align-self: start;">
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                  <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #9A9891;">Applied to</div>
+                  <div style="font-size: 14px; line-height: 1.55; color: #55585C;">{{ e.used }}</div>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 6px; padding: 14px; background: #EFF5F4; border-left: 2px solid #0F5F63;">
+                  <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: #0F5F63;">Evidence</div>
+                  <div style="font-size: 14px; line-height: 1.55; color: #24363A; text-wrap: pretty;">{{ e.proof }}</div>
+                </div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+    </div>
+
+    <div id="2c" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #17181A; padding: 5px 9px; border-radius: 3px;">2c</div>
+        <div style="font-size: 14px; color: #55585C;">Publications — grouped by theme, not by year</div>
+      </div>
+      <div style="width: 1080px; background: #FBFAF8; border: 1px solid #D8D5CE; box-shadow: 0 24px 60px rgba(23,24,26,0.12);">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 56px; height: 68px; border-bottom: 1px solid #E7E4DD;">
+          <div style="font-family: 'Source Serif 4', serif; font-size: 19px; font-weight: 600; color: #17181A; letter-spacing: -0.01em;">Shraddha Puntambekar</div>
+          <div style="display: flex; align-items: center; gap: 26px; font-size: 14.5px; color: #55585C;">
+            <span>Work</span>
+            <span>Expertise</span>
+            <span style="color: #17181A; font-weight: 600; box-shadow: inset 0 -2px 0 #0F5F63;">Research</span>
+            <span>Writing</span>
+            <span style="color: #FBFAF8; background: #0F5F63; padding: 8px 14px; border-radius: 4px; font-weight: 500;">Résumé (PDF)</span>
+          </div>
+        </div>
+
+        <div style="padding: 56px 56px 36px; display: grid; grid-template-columns: 1.4fr 1fr; gap: 56px; align-items: end;">
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #0F5F63;">Publications</div>
+            <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 44px; line-height: 1.08; letter-spacing: -0.02em; color: #17181A; text-wrap: pretty;">Peer-reviewed work, grouped by what it was about.</h1>
+          </div>
+          <p style="margin: 0 0 6px; font-size: 16px; line-height: 1.6; color: #55585C; text-wrap: pretty;">Industry readers scan for topic relevance, not chronology. Author position and citation count are shown because they are the two things that get judged.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid #E7E4DD; border-bottom: 1px solid #E7E4DD; background: #F5F3EE;">
+          <div style="padding: 24px 28px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 5px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 30px; color: #17181A; line-height: 1;">12</div>
+            <div style="font-size: 13px; color: #55585C;">peer-reviewed publications</div>
+          </div>
+          <div style="padding: 24px 28px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 5px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 30px; color: #17181A; line-height: 1;">—</div>
+            <div style="font-size: 13px; color: #55585C;">total citations <span style="color: #9A9891;">(from Scholar)</span></div>
+          </div>
+          <div style="padding: 24px 28px; display: flex; flex-direction: column; gap: 5px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 30px; color: #17181A; line-height: 1;">—</div>
+            <div style="font-size: 13px; color: #55585C;">h-index</div>
+          </div>
+        </div>
+
+        <div style="padding: 20px 56px 56px;">
+          <sc-for list="{{ pubGroups }}" as="g" hint-placeholder-count="3">
+            <div style="display: grid; grid-template-columns: 240px 1fr; gap: 40px; padding: 30px 0; border-bottom: 1px solid #E7E4DD;">
+              <div style="display: flex; flex-direction: column; gap: 8px;">
+                <div style="font-family: 'Source Serif 4', serif; font-size: 21px; line-height: 1.25; color: #17181A;">{{ g.heading }}</div>
+                <div style="font-size: 13px; line-height: 1.5; color: #9A9891; text-wrap: pretty;">{{ g.note }}</div>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 18px;">
+                <sc-for list="{{ g.items }}" as="p" hint-placeholder-count="2">
+                  <div style="display: grid; grid-template-columns: 1fr 110px; gap: 24px; align-items: start;">
+                    <div style="display: flex; flex-direction: column; gap: 5px;">
+                      <div style="font-size: 16.5px; line-height: 1.4; color: #17181A; text-wrap: pretty;">{{ p.t }}</div>
+                      <div style="font-size: 14px; line-height: 1.5; color: #55585C;">{{ p.a }}</div>
+                      <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #83817B;">{{ p.m }}</div>
+                    </div>
+                    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63; border: 1px solid #C9D9D8; background: #EFF5F4; padding: 5px 8px; border-radius: 3px; text-align: center;">{{ p.tag }}</div>
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+          </sc-for>
+          <div style="padding-top: 24px; display: flex; gap: 12px;">
+            <span style="display: inline-flex; border: 1px solid #C9C5BC; color: #17181A; padding: 12px 18px; border-radius: 4px; font-size: 14.5px;">Google Scholar</span>
+            <span style="display: inline-flex; border: 1px solid #C9C5BC; color: #17181A; padding: 12px 18px; border-radius: 4px; font-size: 14.5px;">ORCID</span>
+            <span style="display: inline-flex; border: 1px solid #C9C5BC; color: #17181A; padding: 12px 18px; border-radius: 4px; font-size: 14.5px;">Full BibTeX</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section style="display: flex; flex-direction: column; gap: 28px; padding: 56px 48px 96px; border-top: 1px solid #D5D2CB;">
+
+  <div style="display: flex; flex-direction: column; gap: 8px; max-width: 900px;">
+    <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: #6B6E72;">Turn 1 — personal site redesign</div>
+    <div style="font-family: 'Source Serif 4', serif; font-size: 34px; line-height: 1.15; color: #17181A;">Two directions for shraddhapuntambekar.github.io</div>
+    <div style="font-size: 15px; line-height: 1.6; color: #55585C; text-wrap: pretty;"><a href="#1a">1a</a> is the full homepage rebuilt around outcomes and relocation intent. <a href="#1b">1b</a> is a bolder, darker single-screen opener you could swap onto the same page structure.</div>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 48px; align-items: flex-start;">
+
+    <div id="1a" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #17181A; padding: 5px 9px; border-radius: 3px;">1a</div>
+        <div style="font-size: 14px; color: #55585C;">Editorial / evidence-first homepage</div>
+      </div>
+
+      <div style="width: 1080px; background: #FBFAF8; border: 1px solid #D8D5CE; box-shadow: 0 24px 60px rgba(23,24,26,0.12);">
+
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 0 56px; height: 68px; border-bottom: 1px solid #E7E4DD; position: sticky; top: 0; background: rgba(251,250,248,0.96); backdrop-filter: blur(6px); z-index: 5;">
+          <div style="font-family: 'Source Serif 4', serif; font-size: 19px; font-weight: 600; color: #17181A; letter-spacing: -0.01em;">Shraddha Puntambekar</div>
+          <div style="display: flex; align-items: center; gap: 26px; font-size: 14.5px; color: #55585C;">
+            <span>Work</span>
+            <span>Expertise</span>
+            <span>Research</span>
+            <span>Writing</span>
+            <span style="display: inline-flex; align-items: center; gap: 7px; color: #FBFAF8; background: #0F5F63; padding: 8px 14px; border-radius: 4px; font-weight: 500;">Résumé (PDF)</span>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1.55fr 1fr; gap: 56px; padding: 60px 56px 48px; align-items: start;">
+          <div style="display: flex; flex-direction: column; gap: 22px;">
+            <sc-if value="{{ showRelocationBadge }}" hint-placeholder-val="{{ true }}">
+              <div style="display: inline-flex; align-self: flex-start; align-items: center; gap: 9px; border: 1px solid #C9D9D8; background: #EFF5F4; color: #0F5F63; padding: 7px 12px; border-radius: 999px; font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase;">
+                <span style="width: 6px; height: 6px; border-radius: 50%; background: #0F5F63; display: inline-block;"></span>
+                <span>Open to roles in {{ marketLabel }} · relocating with family</span>
+              </div>
+            </sc-if>
+            <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 52px; line-height: 1.06; letter-spacing: -0.02em; color: #17181A; text-wrap: pretty;">I turn messy multi-omics data into decisions drug programmes can act on.</h1>
+            <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #45484C; max-width: 46ch; text-wrap: pretty;">Bioinformatics scientist, 10+ years across academic research, an early-stage biotech, and global pharma consulting. I build and validate the cloud pipelines that discovery teams depend on — and document them so the next person can run them.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 12px; padding-top: 4px;">
+              <span style="display: inline-flex; align-items: center; gap: 8px; background: #17181A; color: #FBFAF8; padding: 13px 20px; border-radius: 4px; font-size: 15px; font-weight: 500;">Download résumé</span>
+              <span style="display: inline-flex; align-items: center; gap: 8px; border: 1px solid #C9C5BC; color: #17181A; padding: 13px 20px; border-radius: 4px; font-size: 15px; font-weight: 500;">shraddha.puntambekar@gmail.com</span>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 18px; font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; color: #6B6E72; padding-top: 2px;">
+              <span>LinkedIn</span><span>GitHub</span><span>Google Scholar</span><span>ORCID</span>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <div style="aspect-ratio: 4/5; width: 100%; border: 1px solid #D8D5CE; background-image: repeating-linear-gradient(135deg, #F1EFEA 0 8px, #E9E6E0 8px 16px); display: flex; align-items: flex-end; padding: 14px;">
+              <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #6B6E72; background: #FBFAF8; border: 1px solid #E0DCD4; padding: 5px 8px;">portrait — professional, daylight, plain wall</span>
+            </div>
+            <div style="font-size: 13px; line-height: 1.55; color: #6B6E72;">Pune, India (IST) · available for UK/EU hours · open to visa sponsorship</div>
+          </div>
+        </div>
+
+        <sc-if value="{{ showMetrics }}" hint-placeholder-val="{{ true }}">
+          <div style="display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #E7E4DD; border-bottom: 1px solid #E7E4DD; background: #F5F3EE;">
+            <div style="padding: 26px 28px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 6px;">
+              <div style="font-family: 'Source Serif 4', serif; font-size: 32px; color: #17181A; line-height: 1;">17</div>
+              <div style="font-size: 13px; line-height: 1.45; color: #55585C;">omics Nextflow pipelines validated for a global vaccine major</div>
+            </div>
+            <div style="padding: 26px 28px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 6px;">
+              <div style="font-family: 'Source Serif 4', serif; font-size: 32px; color: #17181A; line-height: 1;">10+</div>
+              <div style="font-size: 13px; line-height: 1.45; color: #55585C;">years across academia, biotech and pharma consulting</div>
+            </div>
+            <div style="padding: 26px 28px; border-right: 1px solid #E7E4DD; display: flex; flex-direction: column; gap: 6px;">
+              <div style="font-family: 'Source Serif 4', serif; font-size: 32px; color: #17181A; line-height: 1;">12</div>
+              <div style="font-size: 13px; line-height: 1.45; color: #55585C;">peer-reviewed publications <span style="color: #9A9891;">(add citation count)</span></div>
+            </div>
+            <div style="padding: 26px 28px; display: flex; flex-direction: column; gap: 6px;">
+              <div style="font-family: 'Source Serif 4', serif; font-size: 32px; color: #17181A; line-height: 1;">3</div>
+              <div style="font-size: 13px; line-height: 1.45; color: #55585C;">person bioinformatics function built and led, fully remote</div>
+            </div>
+          </div>
+        </sc-if>
+
+        <div style="padding: 56px 56px 16px; display: flex; align-items: baseline; justify-content: space-between; gap: 24px;">
+          <h2 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 28px; color: #17181A; letter-spacing: -0.01em;">Selected work</h2>
+          <span style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: #6B6E72;">Problem → what I did → outcome</span>
+        </div>
+
+        <div style="padding: 12px 56px 8px; display: flex; flex-direction: column; gap: 0;">
+          <sc-for list="{{ cases }}" as="c" hint-placeholder-count="3">
+            <div style="display: grid; grid-template-columns: 210px 1fr; gap: 40px; padding: 30px 0; border-top: 1px solid #E7E4DD;">
+              <div style="display: flex; flex-direction: column; gap: 8px;">
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63;">{{ c.org }}</div>
+                <div style="font-size: 13.5px; line-height: 1.5; color: #6B6E72;">{{ c.role }}</div>
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #9A9891;">{{ c.years }}</div>
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 12px;">
+                <div style="font-family: 'Source Serif 4', serif; font-size: 23px; line-height: 1.25; color: #17181A; text-wrap: pretty;">{{ c.title }}</div>
+                <div style="font-size: 15.5px; line-height: 1.62; color: #45484C; max-width: 62ch; text-wrap: pretty;">{{ c.body }}</div>
+                <div style="display: flex; align-items: flex-start; gap: 10px; padding: 12px 14px; background: #EFF5F4; border-left: 2px solid #0F5F63;">
+                  <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: #0F5F63; padding-top: 2px; white-space: nowrap;">Outcome</span>
+                  <span style="font-size: 14.5px; line-height: 1.55; color: #24363A;">{{ c.outcome }}</span>
+                </div>
+                <div style="display: flex; flex-wrap: wrap; gap: 7px; padding-top: 2px;">
+                  <sc-for list="{{ c.tech }}" as="t" hint-placeholder-count="5">
+                    <span style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #55585C; border: 1px solid #DFDBD3; padding: 4px 8px; border-radius: 3px;">{{ t }}</span>
+                  </sc-for>
+                </div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+
+        <div style="padding: 44px 56px 0; border-top: 1px solid #E7E4DD; margin-top: 24px;">
+          <h2 style="margin: 0 0 20px; font-family: 'Source Serif 4', serif; font-size: 28px; color: #17181A; letter-spacing: -0.01em;">What I'm hired for</h2>
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1px; background: #E7E4DD; border: 1px solid #E7E4DD;">
+            <sc-for list="{{ skills }}" as="s" hint-placeholder-count="4">
+              <div style="background: #FBFAF8; padding: 22px 24px; display: flex; flex-direction: column; gap: 9px;">
+                <div style="font-size: 16px; font-weight: 600; color: #17181A;">{{ s.name }}</div>
+                <div style="font-size: 14px; line-height: 1.55; color: #55585C; text-wrap: pretty;">{{ s.line }}</div>
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; line-height: 1.7; color: #83817B;">{{ s.tools }}</div>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; padding: 48px 56px 0;">
+          <div style="display: flex; flex-direction: column; gap: 16px;">
+            <h2 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 28px; color: #17181A; letter-spacing: -0.01em;">Selected publications</h2>
+            <sc-for list="{{ pubs }}" as="p" hint-placeholder-count="3">
+              <div style="display: flex; flex-direction: column; gap: 5px; padding-bottom: 14px; border-bottom: 1px solid #EFECE5;">
+                <div style="font-size: 15.5px; line-height: 1.45; color: #17181A;">{{ p.title }}</div>
+                <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #6B6E72;">{{ p.meta }}</div>
+              </div>
+            </sc-for>
+            <div style="font-size: 14px; color: #0F5F63;">Full list on Google Scholar →</div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <h2 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 28px; color: #17181A; letter-spacing: -0.01em;">Writing</h2>
+            <div style="font-size: 14.5px; line-height: 1.6; color: #55585C; text-wrap: pretty;">Short notes on reproducible pipelines, nf-core, and where AI actually helps in omics work. Two or three good posts here do more for a UK application than another skills list.</div>
+            <div style="display: flex; flex-direction: column; gap: 10px; padding-top: 4px;">
+              <div style="border: 1px dashed #CFCBC2; padding: 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #83817B;">post 1 — "Validating 17 Nextflow pipelines: what broke"</div>
+              <div style="border: 1px dashed #CFCBC2; padding: 14px; font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #83817B;">post 2 — "On-prem → cloud for omics: the boring parts"</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin: 56px 0 0; background: #17181A; color: #F3F1EC; padding: 48px 56px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px; align-items: center;">
+          <div style="display: flex; flex-direction: column; gap: 12px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 30px; line-height: 1.2; letter-spacing: -0.01em;">Hiring for a bioinformatics or scientific-platform role in the UK?</div>
+            <div style="font-size: 15.5px; line-height: 1.6; color: #A9A79F; max-width: 52ch; text-wrap: pretty;">I'm relocating with my family and can start a sponsorship process now. Happy to talk through pipeline validation, cloud migration, or target-discovery work.</div>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 10px;">
+            <span style="background: #F3F1EC; color: #17181A; padding: 14px 18px; border-radius: 4px; font-size: 15px; font-weight: 500; text-align: center;">Email me</span>
+            <span style="border: 1px solid #43454A; padding: 14px 18px; border-radius: 4px; font-size: 15px; text-align: center; color: #F3F1EC;">Book 20 minutes</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="1b" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: flex; align-items: baseline; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.08em; color: #FBFAF8; background: #17181A; padding: 5px 9px; border-radius: 3px;">1b</div>
+        <div style="font-size: 14px; color: #55585C;">Alternative opener — darker, one screen</div>
+      </div>
+
+      <div style="width: 760px; background: #101314; border: 1px solid #2A2E30; box-shadow: 0 24px 60px rgba(23,24,26,0.18); display: flex; flex-direction: column;">
+        <div style="display: flex; align-items: center; justify-content: space-between; padding: 0 40px; height: 62px; border-bottom: 1px solid #22282A;">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 12.5px; letter-spacing: 0.1em; text-transform: uppercase; color: #EDEBE6;">S. Puntambekar</div>
+          <div style="display: flex; gap: 20px; font-size: 13.5px; color: #8C918F;">
+            <span>Work</span><span>Research</span><span>Writing</span><span style="color: #6FD6C9;">Résumé</span>
+          </div>
+        </div>
+
+        <div style="padding: 64px 40px 44px; display: flex; flex-direction: column; gap: 24px;">
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.14em; text-transform: uppercase; color: #6FD6C9;">Bioinformatics · multi-omics · scientific workflows</div>
+          <h1 style="margin: 0; font-family: 'Source Serif 4', serif; font-size: 46px; line-height: 1.08; letter-spacing: -0.02em; color: #F4F2ED; text-wrap: pretty;">Pipelines that hold up under real drug-discovery load.</h1>
+          <p style="margin: 0; font-size: 17px; line-height: 1.62; color: #9BA09E; max-width: 52ch; text-wrap: pretty;">Ten years turning sequencing data into targets, biomarkers and reproducible cloud workflows — for a vaccine major, a cancer-biotech startup, and a decade of published research.</p>
+          <div style="display: flex; gap: 12px; padding-top: 6px;">
+            <span style="background: #6FD6C9; color: #0B1211; padding: 13px 20px; font-size: 15px; font-weight: 600; border-radius: 3px;">See selected work</span>
+            <span style="border: 1px solid #33393B; color: #EDEBE6; padding: 13px 20px; font-size: 15px; border-radius: 3px;">Résumé (PDF)</span>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid #22282A;">
+          <div style="padding: 22px 24px; border-right: 1px solid #22282A; display: flex; flex-direction: column; gap: 6px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 26px; color: #F4F2ED;">17</div>
+            <div style="font-size: 12.5px; line-height: 1.45; color: #8C918F;">omics pipelines validated</div>
+          </div>
+          <div style="padding: 22px 24px; border-right: 1px solid #22282A; display: flex; flex-direction: column; gap: 6px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 26px; color: #F4F2ED;">12</div>
+            <div style="font-size: 12.5px; line-height: 1.45; color: #8C918F;">peer-reviewed papers</div>
+          </div>
+          <div style="padding: 22px 24px; display: flex; flex-direction: column; gap: 6px;">
+            <div style="font-family: 'Source Serif 4', serif; font-size: 26px; color: #F4F2ED;">3</div>
+            <div style="font-size: 12.5px; line-height: 1.45; color: #8C918F;">person team built &amp; led</div>
+          </div>
+        </div>
+
+        <div style="padding: 18px 40px; border-top: 1px solid #22282A; display: flex; align-items: center; justify-content: space-between; gap: 16px;">
+          <div style="font-size: 13px; color: #8C918F;">Pune, India — relocating to the UK with family, open to sponsorship.</div>
+          <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #6FD6C9;">available Q4 2026</div>
+        </div>
+      </div>
+
+      <div style="width: 760px; background: #FBFAF8; border: 1px solid #D8D5CE; padding: 24px 28px; display: flex; flex-direction: column; gap: 12px;">
+        <div style="font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #6B6E72;">What changed, and why</div>
+        <sc-for list="{{ rationale }}" as="r" hint-placeholder-count="5">
+          <div style="display: grid; grid-template-columns: 150px 1fr; gap: 18px; padding: 10px 0; border-top: 1px solid #EFECE5;">
+            <div style="font-size: 13.5px; font-weight: 600; color: #17181A;">{{ r.k }}</div>
+            <div style="font-size: 14px; line-height: 1.55; color: #55585C; text-wrap: pretty;">{{ r.v }}</div>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showRelocationBadge&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Positioning&quot;},&quot;targetMarket&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;the UK &amp; EU&quot;,&quot;the UK&quot;,&quot;the US&quot;,&quot;Europe &amp; North America&quot;],&quot;default&quot;:&quot;the UK &amp; EU&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Positioning&quot;},&quot;showMetrics&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Positioning&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const market = this.props.targetMarket ?? "the UK & EU";
+    return {
+      showRelocationBadge: this.props.showRelocationBadge ?? true,
+      showMetrics: this.props.showMetrics ?? true,
+      marketLabel: market,
+      cases: [
+        {
+          org: "Cognizant",
+          role: "Bioinformatics SME, pharma client",
+          years: "2023 — present",
+          title: "Made 17 omics pipelines trustworthy enough to run in production",
+          body: "A British vaccine major was moving genomics and transcriptomics analysis to the cloud. I independently validated all 17 Nextflow pipelines across Google Cloud Workflows, Seqera Tower and local runs, triaged failures with the engineering teams, and wrote the developer documentation covering build → publish → execute.",
+          outcome: "A documented error knowledgebase in daily use, a full lifecycle doc suite, and as-is / to-be architectures that became the basis for the proteomics and metabolomics cloud migration.",
+          tech: ["Nextflow", "nf-core", "Seqera Tower", "Google Cloud Workflows", "Azure DevOps", "GitHub Actions"]
+        },
+        {
+          org: "NonExomics LLP",
+          role: "Head of Computational Biology",
+          years: "2021 — 2023",
+          title: "Built a biotech's bioinformatics function from zero and found validated cancer targets",
+          body: "Stood up nf-core RNA-seq and WGS pipelines on AWS, analysed proprietary and public datasets to shortlist novel cancer targets, and designed the siRNAs and qPCR primers the wet lab used to test them — while hiring and running a fully remote three-person team across time zones.",
+          outcome: "Candidate biomarkers and therapeutic targets experimentally confirmed by the wet-lab team; the company's computational function established and delivering on schedule.",
+          tech: ["AWS (EC2/S3)", "Nextflow", "WGS", "RNA-seq", "siRNA design", "Remote team leadership"]
+        },
+        {
+          org: "Cognizant",
+          role: "Lab Informatics Scientific SME",
+          years: "2023 — 2024",
+          title: "Gave a global pharma an objective picture of its labs' digital maturity",
+          body: "Owned the maturity assessment framework — strategic areas, levels, baseline criteria — and the survey and interview design behind it. Co-ran 16+ stakeholder interviews across sites and with instrument-connectivity experts, then scored and benchmarked the results.",
+          outcome: "A scoring heatmap and benchmark the client used to prioritise digital investment, plus follow-on dashboard and instrument-connectivity proposals.",
+          tech: ["Digital maturity assessment", "Stakeholder interviews", "Benchmarking", "FAIR data", "R&D roadmapping"]
+        }
+      ],
+      skills: [
+        { name: "Multi-omics analysis", line: "Bulk and small RNA-seq, ChIP-seq, ATAC-seq, WGS — from design and QC through differential expression, pathway analysis and interpretation.", tools: "R · Python · Bioconductor · GSEA" },
+        { name: "Workflow engineering", line: "Production Nextflow and nf-core pipelines: containerised, CI-tested, cloud-deployed, and documented for the team that inherits them.", tools: "Nextflow · Docker · Seqera · AWS · GCP · Azure DevOps" },
+        { name: "Systems biology", line: "Boolean and ODE models of regulatory networks — used to explain mechanism, not just describe correlation.", tools: "MATLAB · Python · network reconstruction" },
+        { name: "Pharma R&D consulting", line: "Digital maturity assessment, FAIR data strategy, lab connectivity and technology roadmaps for R&D leadership.", tools: "Benchmarking · stakeholder research · roadmapping" }
+      ],
+      expertise: [
+        {
+          n: "01",
+          name: "Multi-omics analytics",
+          lede: "Turning high-throughput sequencing into hypotheses a programme can test — full lifecycle, from experimental design to biological interpretation.",
+          does: ["Bulk & small RNA-seq", "ChIP-seq / TF binding", "ATAC-seq & chromatin accessibility", "Whole genome sequencing", "Differential expression", "Pathway & enrichment analysis", "Variant annotation", "Multi-omics integration"],
+          used: "Biomarker discovery · target identification · disease mechanism · gene regulation",
+          proof: "Applied at NonExomics to shortlist cancer targets later confirmed in the wet lab."
+        },
+        {
+          n: "02",
+          name: "Workflows & scientific platforms",
+          lede: "Pipelines that other people can run. Containerised, CI-tested, cloud-deployed, and documented for whoever inherits them.",
+          does: ["Nextflow development", "nf-core pipelines", "Workflow orchestration", "Containerisation", "Pipeline validation & benchmarking", "CI/CD for scientific software", "Platform architecture", "Cloud migration"],
+          used: "Production omics analysis · cloud migration · research computing infrastructure",
+          proof: "17 pipelines validated and documented end-to-end for a global vaccine major."
+        },
+        {
+          n: "03",
+          name: "Systems biology & modelling",
+          lede: "Mechanism, not just correlation. Computational models of how behaviour emerges from genes, proteins and pathways.",
+          does: ["Gene regulatory networks", "Network reconstruction", "Boolean modelling", "ODE modelling", "Sensitivity analysis", "Parameter estimation"],
+          used: "Cell fate · signal transduction · PTM networks · systems-level omics interpretation",
+          proof: "The basis of my doctoral research and several peer-reviewed publications."
+        },
+        {
+          n: "04",
+          name: "Pharma R&D digital transformation",
+          lede: "Assessing and improving how scientific data, workflows and lab operations support research productivity.",
+          does: ["Lab digital maturity assessment", "Data strategy & governance", "FAIR data principles", "Scientific data integration", "Lab automation strategy", "Software evaluation", "Technology roadmapping"],
+          used: "Connected labs · data democratisation · research workflow optimisation",
+          proof: "Owned the assessment framework behind a multi-site maturity benchmark for a global pharma."
+        }
+      ],
+      pubGroups: [
+        {
+          heading: "Transcriptomics & epigenomics",
+          note: "Closest to industry discovery work — lead with these.",
+          items: [
+            { t: "Replace with your highest-impact transcriptomics paper", a: "Puntambekar S, …, Senior Author", m: "Journal name · 2021 · 84 citations", tag: "First author" },
+            { t: "Second transcriptomics / epigenomics paper", a: "Author list", m: "Journal name · 2019 · 41 citations", tag: "Co-author" }
+          ]
+        },
+        {
+          heading: "Comparative genomics",
+          note: "",
+          items: [
+            { t: "Comparative genomics paper title", a: "Author list", m: "Journal name · 2018 · 27 citations", tag: "First author" }
+          ]
+        },
+        {
+          heading: "Systems biology & modelling",
+          note: "",
+          items: [
+            { t: "Boolean / ODE modelling paper title", a: "Author list", m: "Journal name · 2017 · 33 citations", tag: "First author" },
+            { t: "Second modelling paper title", a: "Author list", m: "Journal name · 2016 · 12 citations", tag: "Co-author" }
+          ]
+        }
+      ],
+      pubs: [
+        { title: "Replace with your three most-cited or most-relevant papers", meta: "Journal · Year · first / corresponding author · N citations" },
+        { title: "Lead with transcriptomics and epigenomics work — closest to industry roles", meta: "Journal · Year · N citations" },
+        { title: "Systems-biology modelling paper", meta: "Journal · Year · N citations" }
+      ],
+      rationale: [
+        { k: "One claim, not four", v: "The current homepage opens with a job title and a slogan. A hiring manager needs to know in three seconds what you do that they need done." },
+        { k: "Outcomes, not accordions", v: "Your case studies are strong but hidden behind click-to-expand and formatted as internal status reports. Outcome first, evidence second, tech tags last." },
+        { k: "Relocation stated plainly", v: "Right now the only geographic signal is 'Pune, India' — which reads as a filter-out for UK recruiters. Say you're relocating and sponsorship-ready, above the fold." },
+        { k: "Numbers on the page", v: "17 pipelines, 12 papers, a 3-person team built from scratch. Those are your credibility and they're currently buried in paragraphs." },
+        { k: "Looks non-generic", v: "The AcademicPages theme signals 'academic, currently in a postdoc'. A typeset, deliberate site signals a senior industry hire." }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
